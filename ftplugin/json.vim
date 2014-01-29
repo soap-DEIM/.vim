@@ -1,5 +1,12 @@
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set autoindent
+set smarttab
+set expandtab
+
 "uncomment to enable folding of `{...}` and `[...]` blocks
-"setlocal foldmethod=syntax
+setlocal foldmethod=syntax
 
 "conceal by default
 if !exists("g:vim_json_syntax_conceal")
